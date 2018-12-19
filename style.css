@@ -25,7 +25,7 @@ h3 {
     line-height: 1.2
 }
 
-.generated-name{
+.generated-name {
     color: #B10DC9;
     padding-top: 1em;
     font-size: 2em;
@@ -34,3 +34,15 @@ h3 {
         fantasy; 
 }
 
+.hidden {
+    visibility:hidden;
+    display: none;
+}
+
+.icon-link .icon {
+    color: #444;
+}
+
+a:link {
+    color: #6cc0e5;
+}
