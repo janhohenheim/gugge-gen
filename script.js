@@ -14,7 +14,8 @@ const nouns = [
     "Sümpfer",
     "Geischter",
     "Knacker",
-    "Blöser"
+    "Blöser",
+    "Chriesistei"
 ]
 
 document.getElementById("generate").addEventListener("click", () => {
