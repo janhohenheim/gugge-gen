@@ -18,5 +18,10 @@ h3 {
     line-height: 1.2
 }
 
-
+.generated-name{
+    color: #551A8B;
+    padding-top: 7em;
+    font-size: 2em;
+    font-family: 'Comic Sans MS'
+}
 
