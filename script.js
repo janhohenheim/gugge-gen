@@ -8,7 +8,6 @@ const identifiers = [
     "Schoggi",
     "Huere",
     "Styfeli",
-    "Knacker",
     "Chriesistei",
 ]
 
