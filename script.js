@@ -9,6 +9,7 @@ const identifiers = [
     "Huere",
     "Styfeli",
     "Knacker",
+    "Chriesistei",
 ]
 
 const nouns = [
@@ -16,7 +17,6 @@ const nouns = [
     "Geischter",
     "Knacker",
     "Blöser",
-    "Chriesistei",
     "Höckler",
 ]
 
