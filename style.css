@@ -10,7 +10,7 @@ body {
     font-size: 18px;
     color: #444;
     padding: 0 10px;
-    background-color: aqua;
+    background-color: #FAFAFA;
 }
 
 h1,
@@ -20,7 +20,7 @@ h3 {
 }
 
 .generated-name{
-    color: #551A8B;
+    color: #B10DC9;
     padding-top: 1em;
     font-size: 2em;
     font-family: 'Comic Sans MS', 
