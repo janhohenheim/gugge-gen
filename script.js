@@ -10,6 +10,7 @@ const identifiers = [
     'Styfeli',
     'Chriesistei',
     'Tinitus',
+    'Näbel',
 ]
 
 const nouns = [
