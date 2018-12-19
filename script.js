@@ -37,6 +37,25 @@ document.getElementById('generate').addEventListener('click', () => {
     console.log(`${identifier} ${noun}`)
 });
 
+document.getElementById("js-magic").addEventListener("click", () => {
+
+    document.getElementById('generated-name').style.color = getRandomColor()
+    
+    
+
+
+
+});
+
+function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+  }
+
 function generateNumericalIdentifier() {
     const randomNumber = Math.floor(Math.random() * 100)
     return `${randomNumber}-er`
