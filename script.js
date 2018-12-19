@@ -27,8 +27,10 @@ const nouns = [
 document.getElementById('generate').addEventListener('click', () => {
     const identifierIndex = Math.floor(Math.random() * (identifiers.length + 1))
     const isNumericalIdentifier = identifierIndex === identifiers.length
+
     const identifier = isNumericalIdentifier ? generateNumericalIdentifier() : identifiers[identifierIndex]
     const noun = nouns[Math.floor(Math.random() * nouns.length)]
+
     const generatedName = isNumericalIdentifier ? `${identifier} ${noun}` : `${identifier}${noun.toLowerCase()}`
     document.getElementById('generated-name').textContent = generatedName
 
