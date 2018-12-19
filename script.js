@@ -7,7 +7,8 @@ const identifiers = [
     "Reppisch",
     "Schoggi",
     "Huere",
-    "Styfeli"
+    "Styfeli",
+    "Knacker"
 ]
 
 const nouns = [
@@ -15,7 +16,8 @@ const nouns = [
     "Geischter",
     "Knacker",
     "Blöser",
-    "Chriesistei"
+    "Chriesistei",
+    "Höckler"
 ]
 
 document.getElementById("generate").addEventListener("click", () => {
