@@ -1,30 +1,30 @@
-"use strict"
+'use strict'
 
 const identifiers = [
-    "Sädel",
-    "Gyre",
-    "Bänkli",
-    "Reppisch",
-    "Schoggi",
-    "Huere",
-    "Styfeli",
-    "Chriesistei",
-    "Tinitus",
+    'Sädel',
+    'Gyre',
+    'Bänkli',
+    'Reppisch',
+    'Schoggi',
+    'Huere',
+    'Styfeli',
+    'Chriesistei',
+    'Tinitus',
 ]
 
 const nouns = [
-    "Sümpfer",
-    "Geischter",
-    "Knacker",
-    "Blöser",
-    "Höckler",
-    "Mongos",
-    "Fäger",
-    "Clique",
-    "Klecksler",
+    'Sümpfer',
+    'Geischter',
+    'Knacker',
+    'Blöser',
+    'Höckler',
+    'Mongos',
+    'Fäger',
+    'Clique',
+    'Klecksler',
 ]
 
-document.getElementById("generate").addEventListener("click", () => {
+document.getElementById('generate').addEventListener('click', () => {
     const identifierIndex = Math.floor(Math.random() * (identifiers.length + 1))
     const isNumericalIdentifier = identifierIndex === identifiers.length
     const identifier = isNumericalIdentifier ? generateNumericalIdentifier() : identifiers[identifierIndex]
