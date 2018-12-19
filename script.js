@@ -9,6 +9,7 @@ const identifiers = [
     "Huere",
     "Styfeli",
     "Chriesistei",
+    "Tinitus",
 ]
 
 const nouns = [
@@ -18,6 +19,9 @@ const nouns = [
     "Blöser",
     "Höckler",
     "Mongos",
+    "Fäger",
+    "Clique",
+    "Klecksler",
 ]
 
 document.getElementById("generate").addEventListener("click", () => {
