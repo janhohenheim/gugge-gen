@@ -21,10 +21,16 @@ const nouns = [
 ]
 
 document.getElementById("generate").addEventListener("click", () => {
-    const identifier = identifiers[Math.floor(Math.random() * identifiers.length)]
+    const identifierIndex = Math.floor(Math.random() * (identifiers.length + 1))
+    const identifier = (identifierIndex === identifiers.length) ? generateNumericalIdentifier() : identifiers[identifierIndex]
     const noun = nouns[Math.floor(Math.random() * nouns.length)]
     document.getElementById('identifier').textContent = identifier
     document.getElementById('noun').textContent = noun
 
     console.log(`${identifier} ${noun}`)
-}); 
+});
+
+function generateNumericalIdentifier() {
+    const randomNumber = Math.floor(Math.random() * 100)
+    return `${randomNumber}-er`
+}
